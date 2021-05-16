@@ -2,13 +2,13 @@
     height: 100vh;
 }
 
-.featured--vertical{
+.featuredvertical{
     width: inherit;
     height: inherit;
     background: linear-gradient(to top,#111 10%,transparent 90%);
 }
 
-.featured--horizontal{
+.featuredhorizontal{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,38 +20,38 @@
     background: linear-gradient(to right,#111 30%,transparent 70%); 
 }
 
-.featured--name{
+.featuredname{
     font-size:60px;
     font-weight: bold;
 }
 
-.featured--info{
+.featuredinfo{
     font-size: 18px;
     font-weight: bold;
     margin-top: 15px;
 }
 
-.featured--points, .featured--year, .featured--seasons{
+.featuredpoints, .featuredyear, .featuredseasons{
     display: inline-block;
     margin-right: 15px;
 }
 
-.featured--points{
+.featuredpoints{
     color: #46d369;
 }
 
-.featured--description{
+.featureddescription{
     margin-top: 15px;
     font-size: 20px;
     color:#999;
     max-width: 40%;
 }
-.featured--buttons{
+.featuredbuttons{
     margin-top: 15px;
 }
 
-.featured--watchbutton,
-.featured--mylistbutton {
+.featuredwatchbutton,
+.featuredmylistbutton {
     display: inline-block;
     font-weight: bold;
     font-size: 20px;
@@ -63,22 +63,22 @@
     transition: all ease 0.2s;
 }
 
-.featured--mylistbutton:hover,
-.featured--watchbutton:hover{
+.featuredmylistbutton:hover,
+.featuredwatchbutton:hover{
     opacity: 0.7;
 }
 
-.featured--watchbutton{
+.featuredwatchbutton{
     background-color: white;
     color: black;
 }
 
-.featured--mylistbutton{
+.featuredmylistbutton{
     background-color:#333;
     color: white;
 }
 
-.featured--genres{
+.featuredgenres{
     margin-top: 15px;
     font-size: 18px;
     color: #999;
@@ -89,24 +89,24 @@
     .featured{
         height: 85%;
     }
-    .featured--name{
+    .featuredname{
         font-size: 40px;
     }
-    .featured--info{
+    .featuredinfo{
         font-size: 16px;
     }
-    .featured--description{
+    .featureddescription{
         font-size: 14px;
         max-width: 100%;
         margin-right: 30px;
     }
 
-    .featured--genres{
+    .featuredgenres{
         font-size: 14px;
     }
 
-    .featured--watchbutton,
-    .featured--mylistbutton{
+    .featuredwatchbutton,
+    .featuredmylistbutton{
         font-size: 15px;
     }
 }

@@ -20,20 +20,20 @@ export default ({item})=>{
             backgroundPosition: 'center',
             backgroundImage: `url(https://image.tmdb.org/t/p/original${item.backdrop_path})`
         }}>
-            <div className='featured--vertical'>
-                <div className='featured--horizontal'>
-                <div className='featured--name'>{item.original_name}</div>
-                 <div className='featured--info'>
-                    <div className='featured--points'>{item.vote_average}Pontos</div>
-                    <div className='featured--year'>{firstDate.getFullYear()}</div>
-                    <div className='featured--seasons'>{item.number_of_seasons} Temporada{item.number_of_seasons !== 1 ? 's':''}</div>
+            <div className='featuredvertical'>
+                <div className='featuredhorizontal'>
+                <div className='featuredname'>{item.original_name}</div>
+                 <div className='featuredinfo'>
+                    <div className='featuredpoints'>{item.vote_average}Pontos</div>
+                    <div className='featuredyear'>{firstDate.getFullYear()}</div>
+                    <div className='featuredseasons'>{item.number_of_seasons} Temporada{item.number_of_seasons !== 1 ? 's':''}</div>
                 </div>
-                <div className='featured--description'>{description}</div>
-                <div className='featured--buttons'>
-                  <a href={`/watch/${item.id}`} className='featured--watchbutton'>Assistir</a>
-                  <a href={`/list/add/${item.id}`}className='featured--mylistbutton'>+ Minha Lista</a>
+                <div className='featureddescription'>{description}</div>
+                <div className='featuredbuttons'>
+                  <a href={`/watch/${item.id}`} className='featuredwatchbutton'>Assistir</a>
+                  <a href={`/list/add/${item.id}`}className='featuredmylistbutton'>+ Minha Lista</a>
                 </div>
-                <div className='featured--genres'><strong>Gênero:</strong>{genres.join(', ')}</div>
+                <div className='featuredgenres'><strong>Gênero:</strong>{genres.join(', ')}</div>
                 </div>
             </div>
         </section>

@@ -29,20 +29,20 @@ export default ({title,items})=>{
            
         <div className='movieRow'>
                <h2>{title}</h2>
-                 <div className='movierow--left' onClick={handleleftArrow}>
+                 <div className='movieRowL' onClick={handleleftArrow}>
                    <NavigateBeforeIcon style={{fontSize:50}}/>
                   </div>
-                  <div className='movierow--right' onClick={handlerightArrow}>
+                  <div className='movieRowR' onClick={handlerightArrow}>
                       <NavigateNextIcon style={{fontSize:50}}/>
                   </div>
 
-            <div className='movieRow--listarea'>
-               <div className='movieRow--lists' style={{
+            <div className='movieRowlistarea'>
+               <div className='movieRowlists' style={{
                    marginLeft: scrollX,
                    width:items.results.length * 150
                }}>
                      {items.results.length > 0 && items.results.map((item,key)=>(
-                        <div key={key} className='movieRow--item'>
+                        <div key={key} className='movieRowitem'>
                          <img src={`https://image.tmdb.org/t/p/w300${item.poster_path}`} alt={item.original_title}/>
                             </div>    
                               ))}

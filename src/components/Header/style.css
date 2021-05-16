@@ -18,18 +18,18 @@ header{
     background-color: #141414;
 }
 
-.header--logo{
+.headerlogo{
     height: 20px;
 }
 
-.header--logo img{
+.headerlogo img{
     height: 100%;
 }
 
-.header--user{
+.headeruser{
     height: 20px;
 }
 
-.header--user img{
+.headeruser img{
     height: 100%;
 }
