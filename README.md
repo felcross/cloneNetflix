@@ -1,3 +1,10 @@
+## commits
+na epoca acompanhei a aula e fiz todo o codigo na mão,
+porem não sabia usar o git direito por isso a falta de commits no projeto 
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
